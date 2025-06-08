@@ -4,6 +4,7 @@ backend:
 
 media_folder: "assets/img/uploads"
 public_folder: "/assets/img/uploads"
+
 media_library:
   name: uploadcare
 
@@ -72,7 +73,7 @@ collections:
       - name: "icons"
         label: "Icons"
         widget: "list"
-        field: { label: "Font Awesome Icon Class", name: "icon", widget: "string" }
+        field: { label: "Font Awesome Icon", name: "icon", widget: "string" }
       - name: "workflow"
         label: "Workflow"
         widget: "list"
