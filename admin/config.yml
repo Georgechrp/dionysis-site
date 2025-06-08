@@ -52,8 +52,8 @@ collections:
         label: "Experience"
         name: "experience"
         fields:
-          - label: "Jobs"
-            name: "jobs"
+          - name: "jobs"
+            label: "Jobs"
             widget: "list"
             fields:
               - { label: "Job Title", name: "title", widget: "string" }
@@ -68,8 +68,8 @@ collections:
         label: "Education"
         name: "education"
         fields:
-          - label: "Education Entries"
-            name: "entries"
+          - name: "entries"
+            label: "Education Entries"
             widget: "list"
             fields:
               - { label: "School", name: "school", widget: "string" }
@@ -88,11 +88,18 @@ collections:
           - name: "icons"
             label: "Icons"
             widget: "list"
-            field: { label: "Font Awesome Icon", name: "icon", widget: "string" }
+            field:
+              label: "Font Awesome Icon"
+              name: "icon"
+              widget: "string"
+
           - name: "workflow"
             label: "Workflow"
             widget: "list"
-            field: { label: "Workflow Item", name: "item", widget: "string" }
+            field:
+              label: "Workflow Item"
+              name: "item"
+              widget: "string"
 
   - name: "interests"
     label: "Interests"
@@ -104,7 +111,10 @@ collections:
           - name: "paragraphs"
             label: "Paragraphs"
             widget: "list"
-            field: { label: "Paragraph", name: "paragraph", widget: "text" }
+            field:
+              label: "Paragraph"
+              name: "paragraph"
+              widget: "text"
 
   - name: "awards"
     label: "Awards"
@@ -116,4 +126,7 @@ collections:
           - name: "list"
             label: "Awards List"
             widget: "list"
-            field: { label: "Award", name: "award", widget: "string" }
+            field:
+              label: "Award"
+              name: "award"
+              widget: "string"
