@@ -1,10 +1,11 @@
-- school: University of Colorado Boulder
-  degree: Bachelor of Science
-  details: Computer Science - Web Development Track
-  gpa: 3.23
-  dates: August 2006 - May 2010
+entries:
+  - school: University of Colorado Boulder
+    degree: Bachelor of Science
+    details: Computer Science - Web Development Track
+    gpa: 3.23
+    dates: August 2006 - May 2010
 
-- school: James Buchanan High School
-  degree: Technology Magnet Program
-  gpa: 3.56
-  dates: August 2002 - May 2006
+  - school: James Buchanan High School
+    degree: Technology Magnet Program
+    gpa: 3.56
+    dates: August 2002 - May 2006
