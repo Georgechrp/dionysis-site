@@ -42,8 +42,8 @@ collections:
     label: "Experience"
     file: "_data/experience.yml"
     fields:
-      - label: "Jobs"
-        name: ""
+      - name: "jobs"
+        label: "Jobs"
         widget: "list"
         fields:
           - { label: "Job Title", name: "title", widget: "string" }
@@ -55,8 +55,8 @@ collections:
     label: "Education"
     file: "_data/education.yml"
     fields:
-      - label: "Education Entries"
-        name: ""
+      - name: "entries"
+        label: "Education Entries"
         widget: "list"
         fields:
           - { label: "School", name: "school", widget: "string" }
@@ -69,26 +69,29 @@ collections:
     label: "Skills"
     file: "_data/skills.yml"
     fields:
-      - label: "Icons"
-        name: "icons"
+      - name: "icons"
+        label: "Icons"
         widget: "list"
-        field: { label: "Font Awesome Icon Class", name: "", widget: "string" }
-      - label: "Workflow"
-        name: "workflow"
+        field: { label: "Font Awesome Icon Class", name: "icon", widget: "string" }
+      - name: "workflow"
+        label: "Workflow"
         widget: "list"
-        field: { label: "Workflow Item", name: "", widget: "string" }
+        field: { label: "Workflow Item", name: "item", widget: "string" }
 
   - name: "interests"
     label: "Interests"
     file: "_data/interests.yml"
     fields:
-      - label: "Paragraphs"
-        name: ""
+      - name: "paragraphs"
+        label: "Paragraphs"
         widget: "list"
-        field: { label: "Paragraph", name: "", widget: "text" }
+        field: { label: "Paragraph", name: "paragraph", widget: "text" }
 
   - name: "awards"
     label: "Awards"
     file: "_data/awards.yml"
     fields:
-      - label: "Awards List"
+      - name: "list"
+        label: "Awards List"
+        widget: "list"
+        field: { label: "Award", name: "award", widget: "string" }
