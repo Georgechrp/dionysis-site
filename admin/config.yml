@@ -1,3 +1,12 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/img/uploads"
+public_folder: "/assets/img/uploads"
+media_library:
+  name: uploadcare
+
 collections:
   - name: "nav"
     label: "Navigation"
@@ -83,6 +92,3 @@ collections:
     file: "_data/awards.yml"
     fields:
       - label: "Awards List"
-        name: ""
-        widget: "list"
-        field: { label: "Award", name: "", widget: "string" }
