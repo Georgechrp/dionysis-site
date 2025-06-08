@@ -11,9 +11,8 @@ icons:
   - fab fa-gulp
   - fab fa-grunt
   - fab fa-npm
-
 workflow:
-  - Mobile-First, Responsive Design
+  - Mobile-First
   - Cross Browser Testing & Debugging
   - Cross Functional Teams
   - Agile Development & Scrum
