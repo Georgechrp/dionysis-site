@@ -1,0 +1,20 @@
+<section class="resume-section" id="about">
+  <div class="resume-section-content">
+    <h1 class="mb-0">
+      {{ site.data.about.first_name }}
+      <span class="text-primary">{{ site.data.about.last_name }}</span>
+    </h1>
+    <div class="subheading mb-5">
+      {{ site.data.about.location }} · {{ site.data.about.phone }} ·
+      <a href="mailto:{{ site.data.about.email }}">{{ site.data.about.email }}</a>
+    </div>
+    <p class="lead mb-5">{{ site.data.about.bio }}</p>
+    <div class="social-icons">
+      {% for link in site.data.about.social %}
+        <a class="social-icon" href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
+          <i class="{{ link.icon }}"></i>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

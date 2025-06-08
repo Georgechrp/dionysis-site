@@ -1,0 +1,88 @@
+collections:
+  - name: "nav"
+    label: "Navigation"
+    file: "_data/nav.yml"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+      - label: "Menu Items"
+        name: "menu"
+        widget: "list"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Href", name: "href", widget: "string" }
+
+  - name: "about"
+    label: "About Section"
+    file: "_data/about.yml"
+    fields:
+      - { label: "First Name", name: "first_name", widget: "string" }
+      - { label: "Last Name", name: "last_name", widget: "string" }
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Phone", name: "phone", widget: "string" }
+      - { label: "Email", name: "email", widget: "string" }
+      - { label: "Bio", name: "bio", widget: "text" }
+      - label: "Social Media Links"
+        name: "social"
+        widget: "list"
+        fields:
+          - { label: "Icon", name: "icon", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+
+  - name: "experience"
+    label: "Experience"
+    file: "_data/experience.yml"
+    fields:
+      - label: "Jobs"
+        name: ""
+        widget: "list"
+        fields:
+          - { label: "Job Title", name: "title", widget: "string" }
+          - { label: "Company", name: "company", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Dates", name: "dates", widget: "string" }
+
+  - name: "education"
+    label: "Education"
+    file: "_data/education.yml"
+    fields:
+      - label: "Education Entries"
+        name: ""
+        widget: "list"
+        fields:
+          - { label: "School", name: "school", widget: "string" }
+          - { label: "Degree", name: "degree", widget: "string" }
+          - { label: "Details", name: "details", widget: "string", required: false }
+          - { label: "GPA", name: "gpa", widget: "string", required: false }
+          - { label: "Dates", name: "dates", widget: "string" }
+
+  - name: "skills"
+    label: "Skills"
+    file: "_data/skills.yml"
+    fields:
+      - label: "Icons"
+        name: "icons"
+        widget: "list"
+        field: { label: "Font Awesome Icon Class", name: "", widget: "string" }
+      - label: "Workflow"
+        name: "workflow"
+        widget: "list"
+        field: { label: "Workflow Item", name: "", widget: "string" }
+
+  - name: "interests"
+    label: "Interests"
+    file: "_data/interests.yml"
+    fields:
+      - label: "Paragraphs"
+        name: ""
+        widget: "list"
+        field: { label: "Paragraph", name: "", widget: "text" }
+
+  - name: "awards"
+    label: "Awards"
+    file: "_data/awards.yml"
+    fields:
+      - label: "Awards List"
+        name: ""
+        widget: "list"
+        field: { label: "Award", name: "", widget: "string" }

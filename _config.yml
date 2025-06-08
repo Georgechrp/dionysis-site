@@ -1,0 +1,9 @@
+collections_dir: content
+collections:
+  home:
+    output: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
