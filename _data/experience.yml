@@ -1,24 +1,20 @@
 jobs:
-  - title: Senior Web Developer
-    company: Intelitec Solutions
+  - title: Head Sommelier
+    company: La Table du Chef, Paris
     description: >
-      Bring to the table win-win survival strategies...
-    dates: March 2013 - Present
-
-  - title: Web Developer
-    company: Intelitec Solutions
-    description: >
-      Capitalize on low hanging fruit...
-    dates: December 2011 - March 2013
-
-  - title: Junior Web Designer
-    company: Shout! Media Productions
-    description: >
-      Podcasting operational change management...
-    dates: July 2010 - December 2011
-
-  - title: Web Design Intern
-    company: Shout! Media Productions
-    description: >
-      Collaboratively administrate empowered markets...
-    dates: September 2008 - June 2010
+      Led the wine program for a Michelin-starred restaurant, managing a
+      1,200-label cellar. Designed seasonal wine pairings, trained service
+      staff, and curated exclusive tasting menus for VIP clientele.
+    dates: March 2021 – Present
+  - title: Assistant Sommelier
+    company: Four Seasons Hotel, Athens
+    description: Supported the head sommelier in managing wine service across
+      multiple dining outlets. Provided recommendations to guests, updated wine
+      lists, and assisted in organizing wine-pairing events and staff workshops.
+    dates: September 2019 – February 2021
+  - title: Wine Consultant
+    company: Oenorama Wine Expo (Freelance)
+    description: Represented international wineries during trade events and
+      tastings. Educated guests and professionals about regional varietals,
+      vinification methods, and food pairing strategies.
+    dates: March 2018 – March 2019

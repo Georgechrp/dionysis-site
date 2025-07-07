@@ -1,11 +1,15 @@
-first_name: Dionysis
+first_name: Dennis
 last_name: Kalogeropoulos
 location: Kalamata, Greece
-phone: "+30 6983396786"
+phone: +30 6983396786
 email: deniskalogeropoulos1@gmail.com
-bio: >
-  I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews.
-  Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+bio: >+
+  I am a certified sommelier with a strong passion for wine, hospitality, and
+  storytelling through taste. With years of experience in wine pairing, cellar
+  management, and guest education, I specialize in creating memorable dining
+  experiences that celebrate the harmony between wine and cuisine. I
+  continuously explore new regions, producers, and styles to deepen my knowledge
+  and bring fresh perspectives to the table.
 
 social:
   - icon: fab fa-linkedin-in
