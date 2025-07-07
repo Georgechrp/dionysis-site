@@ -1,18 +1,10 @@
 icons:
-  - aaaaaaaaaaaa
-  - fab fa-css3-alt
-  - fab fa-js-square
-  - fab fa-angular
-  - fab fa-react
-  - fab fa-node-js
-  - fab fa-sass
-  - fab fa-less
-  - fab fa-wordpress
-  - fab fa-gulp
-  - fab fa-grunt
-  - fab fa-npm
+  - wine-glass
+  - wine-bottle
+  - briefcase
+  - glass-cheers
 workflow:
-  - Mobile-First
-  - Cross Browser Testing & Debugging
+  - Wine Pairing Protocols & Service Sequences
+  - Systematic Approach to Tasting
   - Cross Functional Teams
-  - Agile Development & Scrum
+  - Old World & New World Wines | Fortified | Sparkling | Natural | Orange Wines
