@@ -17,4 +17,29 @@
       {% endfor %}
     </div>
   </div>
+ 
+
 </section>
+<!-- Scroll to Top Button -->
+<button onclick="scrollToTop()" class="go-up-btn" id="goUpBtn" aria-label="Go to top">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+
+<script>
+  const goUpBtn = document.getElementById("goUpBtn");
+
+  // Εμφάνιση/Απόκρυψη ανάλογα με το scroll
+  window.onscroll = function () {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      goUpBtn.classList.add("show");
+    } else {
+      goUpBtn.classList.remove("show");
+    }
+  };
+
+  // Smooth scroll to top
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
