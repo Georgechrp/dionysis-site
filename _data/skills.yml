@@ -1,16 +1,7 @@
 icons:
-  - aaaaaaaaaaaa
-  - fab fa-css3-alt
-  - fab fa-js-square
-  - fab fa-angular
-  - fab fa-react
-  - fab fa-node-js
-  - fab fa-sass
-  - fab fa-less
-  - fab fa-wordpress
-  - fab fa-gulp
-  - fab fa-grunt
-  - fab fa-npm
+  - fas fa-wine-glass
+  - fas fa-wine-glass-alt
+  - fas fa-wine-bottle
 workflow:
   - Mobile-First
   - Cross Browser Testing & Debugging
