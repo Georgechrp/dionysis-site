@@ -85,14 +85,6 @@ collections:
         label: "Skills"
         name: "skills"
         fields:
-          - name: "icons"
-            label: "Icons"
-            widget: "list"
-            field:
-              label: "Font Awesome Icon"
-              name: "icon"
-              widget: "string"
-
           - name: "workflow"
             label: "Workflow"
             widget: "list"
@@ -100,6 +92,7 @@ collections:
               label: "Workflow Item"
               name: "item"
               widget: "string"
+
 
   - name: "interests"
     label: "Interests"
