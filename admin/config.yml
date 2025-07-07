@@ -86,16 +86,20 @@ collections:
         name: "skills"
         fields:
           - name: "icons"
-            label: "Programming Languages & Tools"
+            label: "Icons"
             widget: "list"
-            fields:
-              - { label: "Font Awesome Icon", name: "icon", widget: "string" }
+            field:
+              label: "Font Awesome Icon"
+              name: "icon"
+              widget: "string"
 
           - name: "workflow"
             label: "Workflow"
             widget: "list"
-            fields:
-              - { label: "Workflow Item", name: "item", widget: "string" }
+            field:
+              label: "Workflow Item"
+              name: "item"
+              widget: "string"
 
 
   - name: "interests"
